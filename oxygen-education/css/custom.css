@@ -1,0 +1,371 @@
+body{
+  margin:0 auto;
+  padding:0px;
+}
+
+
+
+/*navigation bar*/
+.logo{
+      width: 80%;
+      }
+/* Banner Section*/
+
+
+
+
+/*=========== Typography ============ */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'aileron', sans-serif;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-justify{
+  text-align: justify !important;
+}
+
+.text-left{
+  text-align: left;
+}
+.font-upercase{
+  text-transform: uppercase;
+}
+.font-white{
+  color:#ffffff !important;
+}
+
+.font-black{
+  color: black;
+}
+
+.md-white{
+  color:#ffffff !important;
+}
+
+
+.bold{
+  font-weight: bolder;
+}
+.padding-10px{
+  padding-top:10px;
+}
+
+.padding-20px{
+  padding:20px;
+}
+
+.padding-40px{
+  padding:40px;
+}
+.padding-top{
+  padding: 70px 10px 0px 10px;
+}
+
+.padding-top2{
+  padding-top: 40px;
+}
+
+.padding-bottom{
+  padding-bottom: 40px;
+}
+
+.margin-0{
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.margin-left{
+  margin-left:10px;
+}
+
+.margin-right{
+  margin-right: 10px;
+}
+
+.padding-0{
+padding:0px;
+}
+
+.min-height{
+  min-height: 340px;
+}
+
+.text-padding-left-right{
+  padding-right: 80px;
+  padding-left: 80px; 
+}
+ 
+ .bg-white{
+  background: #ffffff !important;
+ }
+
+.bg-green{
+  background: #21B2A6 !important;
+}
+
+.bg-black
+{
+  background:#25292E !important;
+
+}
+
+.bg-off-white{
+  background: #FAF8F8 !important;
+}
+.bg-ass{
+  background: #F1F3F3 !important;
+}
+
+.bg-grey{
+  background: #E3E2E2 !important;
+}
+.line-white{
+  margin: 0 auto;
+  background: #ffffff;
+  width: 100px;
+  height: 2px;
+}
+
+.line-grey{
+  margin: 0 auto;
+  background: grey;
+  width: 100px;
+  height: 2px;
+}
+
+.line-grey-1{
+  background: grey;
+  width: 100px;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.line-green{
+  margin: 0 auto;
+  background: #21B2A6;
+  width: 100px;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.responsive-img{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+p{
+  text-align: center;
+  line-height: 20px;
+}
+
+
+/*====== banner =====*/
+
+.logo-img{
+  margin-top:120px;
+}
+
+.banner{
+  margin-top: 80px;
+  text-align: center;
+  background-image: url(bg-img/01.png);
+  min-height: 600px;
+}
+.banner h1{
+  padding-top: 10px;
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.banner h6{
+  font-weight: bolder;
+  line-height: 20px;
+  z-index: -2;
+}
+
+.btn-banner{
+  margin-top: 30px;
+  background: transparent;
+  border-radius:0px;
+  color: #ffffff;
+  font-weight: bolder;
+  border:1px solid white;
+  width: 250px;
+}
+
+
+/*=====about=====*/
+.about-us{
+  z-index: 5;
+  margin-top: -100px;
+  padding: 80px 60px 80px 60px;
+}
+
+
+
+.mission-vision{
+  padding:50px 0 50px 0;
+  color: #ffffff !important;
+  background-image: url("bg-img/02.png");
+}
+
+
+.section-3{
+  margin-top:0;
+}
+
+
+/*==== why choose us =====*/
+
+.history{
+  background: #25292E;
+  padding:80px 40px 80px 40px;
+  min-height: 330px;
+  box-sizing: border-box;
+  text-overflow: hidden;
+}
+
+.why-us
+{
+  background-image: url("bg-img/15.png");
+  box-sizing: border-box;
+}
+
+.maps{
+  padding: 40px 80px 40px 0px;
+}
+
+
+/*== service ===*/
+
+.service{
+  margin-top: 30px;
+}
+
+/* ==== footer css ==== */
+.footer-pre{
+  background:#21B2A6;
+}
+
+
+
+.footer{
+  min-height: 80px;
+  background: black;
+}
+.footer-left{
+  color: #ffffff;
+  padding-top:20px;
+  text-align: left;
+}
+
+.footer ul{
+  list-style: none;
+  color: #ffffff;
+}
+
+.footer-right{
+  padding-top: 20px;
+  color:#ffffff;
+  text-align: right;
+}
+
+
+
+
+ /*======== mobile responsive ============*/
+
+@media screen and (max-width: 768px) 
+{
+      
+.padding-40px{
+  padding:10px;
+}
+
+.logo{
+      width: 70%;
+      float: right;
+      margin-top: -10px;
+      }
+
+.logo-img{
+  margin-top:20px;
+}
+
+
+.banner{
+  margin-top: 40px;
+  min-height: 400px;
+}
+
+.banner h1{
+  padding-top: 10px;
+  color: black;
+  font-weight: #ffffff;
+  font-size: 24px;
+  text-align: center;
+}
+.btn-banner{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 120px;
+  font-size: 14px;
+}
+
+
+.about-us{
+  padding: 80px 20px 40px 20px;
+}
+
+.padding-top{
+  padding: 10px;
+}
+
+.footer-left{
+  color: #ffffff;
+  padding:10px;
+  text-align: center;
+}
+
+.footer-right{
+  padding: 20px;
+  color:#ffffff;
+  text-align: center;
+}
+
+.font-white{
+  color:grey !important;
+}
+
+.m-white{
+  color:#ffffff !important;
+}
+
+.font-black{
+  color: black;
+}
+
+iframe{
+  width:280px;
+}
+
+.why-nexus
+{
+  padding: 5px 0px 10px 0px;
+  box-sizing: border-box;
+}
+
+.text-padding-left-right{
+  padding-right: 10px;
+  padding-left: 10px; 
+}
+
+
+}
