@@ -1,0 +1,285 @@
+*{
+  margin: 0 auto;
+  padding: 0px;
+}
+body{
+  margin:0 auto;
+  padding:0;
+}
+
+.container-fluid{
+  background: black;
+}
+
+
+/*navigation bar*/
+.logo{
+      width: 80%;
+      }
+.
+/* Banner Section*/
+
+
+
+
+/*=========== Typography ============ */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'aileron', sans-serif;
+}
+
+.font-white{
+  color:#ffffff !important;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-justify{
+  text-align: justify !important;
+}
+.font-upercase{
+  text-transform: uppercase;
+}
+
+.padding-10px{
+  padding:10px;
+}
+
+.padding-20px{
+  padding:20px;
+}
+
+.padding-40px{
+  padding:40px;
+}
+.padding-top{
+  padding: 70px 10px 0px 10px;
+}
+
+.padding-top2{
+  padding-top: 40px;
+}
+
+.margin-0{
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.min-height{
+  min-height: 340px;
+}
+
+.font-white{
+  color:#ffffff !important;
+}
+
+
+/*==== General CSS====*/
+ 
+ .bg-white{
+  background: #ffffff !important;
+ }
+
+.responsive-img{
+  width: 100%;
+}
+
+p{
+  text-align: center;
+  line-height: 20px;
+}
+
+
+/*====== banner =====*/
+.banner{
+  margin-top: 80px;
+  text-align: center;
+  background-image: url(bg-img/01.png);
+  min-height: 500px;
+}
+.banner h1{
+  padding-top: 90px;
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.banner h6{
+  color: #ffffff;
+  font-weight: bolder;
+  line-height: 20px;
+}
+
+.btn-banner{
+  margin-top: 30px;
+  background: #DB6B23;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: bolder;
+  width: 250px;
+}
+
+/*=====about=====*/
+
+.about-us{
+  height: 250px;
+  padding:50px 0 50px 0;
+  color: #ffffff !important;
+  background: #008083 !important;
+}
+
+.line-white{
+  margin: 0 auto;
+  background: #ffffff;
+  width: 100px;
+  height: 2px;
+}
+
+.line-yellow{
+  margin: 0 auto;
+  background: #DB6B23;
+  width: 100px;
+  height: 2px;
+}
+
+.section-3{
+  margin-top:0;
+}
+
+
+/*==== why choose us =====*/
+
+.why-us
+{
+  background: transparent;
+  background-image: url("bg-img/02.png");
+}
+
+
+
+.history
+{
+  background: black !important;
+}
+/*== service ===*/
+.service-1{
+  background: #DB6B23;
+
+}
+
+.service-2{
+  background-image: url("bg-img/service-2.png");
+
+}
+
+.service-3{
+  background-image: url("bg-img/service-3.png");
+}
+
+.service-4{
+  background-image: url("bg-img/service-4.png");
+}
+
+.service-5{
+  background-image: url("bg-img/service-5.png");
+}
+
+.service-6{
+  background-image: url("bg-img/service-6.png");
+}
+.service-7{
+  background-image: url("bg-img/service-7.png");
+}
+
+.service-8{
+  background-image: url("bg-img/service-8.png");
+}
+
+/* ==== footer css ==== */
+
+.footer{
+  min-height: 80px;
+  background: black;
+}
+.footer-left{
+  color: #ffffff;
+  padding-top:20px;
+  text-align: left;
+}
+
+.footer ul{
+  list-style: none;
+  color: #ffffff;
+}
+
+.footer-right{
+  padding-top: 20px;
+  color:#ffffff;
+  text-align: right;
+}
+
+
+
+
+ /*======== mobile responsive ============*/
+
+@media screen and (max-width: 768px) 
+{
+      .logo{
+      width: 70%;
+      float: right;
+      margin-top: -10px;
+      }
+
+.font-white{
+  color:grey !important;
+}
+
+.banner{
+  margin-top: 40px;
+}
+
+.banner h1{
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 24px;
+  text-align: center;
+}
+
+.btn-banner{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 120px;
+  font-size: 14px;
+}
+
+.about-us{
+  height: auto;
+  color: #ffffff !important;
+}
+
+.padding-top{
+  padding: 10px;
+}
+
+.footer-left{
+  color: #ffffff;
+  padding:10px;
+  text-align: center;
+}
+
+.footer-right{
+  padding: 20px;
+  color:#ffffff;
+  text-align: center;
+}
+
+.font-white{
+  color:#ffffff !important;
+}
+
+
+}
